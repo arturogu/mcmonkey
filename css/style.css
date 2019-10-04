@@ -1,0 +1,578 @@
+/*#Hola {
+  background-color: green;
+  background-image: url("../img/bg1.png");
+  padding-top: 5%;
+  width: 100%;
+  height: 100%;
+}*/
+
+/*Seccion 1 Hacemos*/
+
+
+#Hola{
+    position: relative;
+
+    padding: 5%;
+    padding-left: 10%;
+
+    background-image: url("../img/bg1.png");
+
+    background-size: cover;
+    display: block;
+    min-height: calc(100vh);
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#Hola img{
+  z-index: 5;
+  box-sizing: border-box;
+  float: left;
+}
+
+#hacemos {
+  color: white;
+  font-size: 48px;
+  padding-top: 10%;
+  font-family: GoodTime;
+  box-sizing: border-box;
+}
+
+#menu {
+  color: rgb(255,204,0);
+  font-family: GoodTime;
+  font-size: 18;
+  z-index: 1;
+  list-style-type: none;
+  padding-left: 0;
+  box-sizing: border-box;
+  float: right;
+  background-color: transparent;
+}
+
+.menuitem{
+  visibility: visible;
+}
+
+#menutgl{
+  display: none;
+}
+
+#menutxt{
+  color: white;
+  font-family: PrimeTime;
+}
+
+#carouselHome{
+
+  height: inherit;
+  padding-top: 0;
+  box-sizing: border-box;
+}
+
+#carouselHome .carousel-indicators{
+  bottom: -20%;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+  #Hola{
+  }
+
+  #Hola .container{
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  #hacemos {
+    font-size: 10vw;
+  }
+
+  #carouselHome{
+    position: absolute;
+    bottom: 10%;
+  }
+
+  #carouselHome .carousel-indicators{
+    bottom: -60px;
+    left: -20%;
+  }
+
+  #menu{
+    font-size: 12px;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 10;
+    text-align: right;
+  }
+
+  #menutgl{
+    font-size: 40px;
+    display: block;
+  }
+
+  #menutxt{
+    color: rgb(255,134,159);
+  }
+
+  .menuitem{
+  visibility: hidden;
+  /*color: rgb(102,102,102);*/
+  }
+
+}
+
+@media only screen and (orientation: portrait) {
+    #Hola img{
+      width: 150%;
+      height: auto;
+    }
+}
+
+/*Seccion 2 quienes somos*/
+
+#quienes{
+  position: relative;
+
+  padding: 5%;
+  padding-top: 0;
+
+  background-size: cover;
+  display: block;
+  min-height: calc(100vh);
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#r1{
+  font-family: Primetime;
+  color: rgb(255,204,0);
+  text-align: justify;
+  font-size: 32;
+  font-weight: normal;
+  line-height: 100%;
+  position: relative;
+  box-sizing: border-box;
+}
+
+#quienes2{
+  position: absolute;
+  top: 25%;
+  left: 17%;
+  box-sizing: border-box;
+}
+
+#quienes3{
+  position: absolute;
+  left: 17%;
+  max-width: 80%;
+}
+
+#r2{
+  font-family: Young;
+  position: relative;
+  box-sizing: border-box;
+}
+
+#number{
+  color: rgb(255,204,0);
+  font-size: 64;
+  font-weight: bolder;
+  font-family: GoodTime;
+  align-content: center;
+  position: relative;
+  left: -2%;
+  box-sizing: border-box;
+}
+
+#vl{
+  position: relative;
+    border-left: 3px solid rgb(255,204,0);
+    height: 200px;
+    left: 2%;
+    margin-left: -3px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+#vl2{
+  position: relative;
+    border-left: 3px solid rgb(255,204,0);
+    height: 175px;
+    left: 20%;
+    margin-left: -3px;
+    margin-top: .5cm;
+    margin-bottom: .5cm;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+  #quienes{
+  }
+
+  #vl2{
+    display: none;
+  }
+
+  #vl{
+    display: none;
+  }
+
+  #number{
+    display: none;
+  }
+
+  #quienes2{
+    position: relative;
+    padding: 5%;
+  }
+
+  #quienes3{
+    position: relative;
+    padding: 5%;
+  }
+
+
+
+}
+
+
+/*Seccion 3 nuestros servicios */
+
+#servicios {
+  position: relative;
+
+  padding: 5%;
+
+  background-image: url("../img/bg2.png");
+
+  background-size: cover;
+  display: block;
+  min-height: calc(100vh);
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#servicios2 {
+  color: white;
+  align-content: center;
+  font-family: Young;
+  text-align: center;
+  font-size: 24;
+  box-sizing: border-box;
+}
+
+
+#servicios3{
+  font-size: 18;
+}
+
+#number2 {
+  color: rgb(255,255,255);
+  font-size: 64;
+  font-weight: bolder;
+  font-family: GoodTime;
+  padding-top: 0;
+  padding-left: 5%;
+  box-sizing: border-box;
+}
+
+#vls{
+    position: relative;
+    border-right: 3px solid rgb(255,255,255);
+    height: 175px;
+    right: -30%;
+    margin-right: -3px;
+    margin-top: .5cm;
+    margin-bottom: .5cm;
+    box-sizing: border-box;
+}
+
+#carouselExampleIndicators{
+  width: 90%;
+  padding-top: 10%;
+  box-sizing: border-box;
+}
+
+.carousel-indicators{
+  bottom: 0;
+}
+
+.carousel-indicators li{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border-width: 1px;
+  border: solid rgb(255,204,0);
+  background-color: black;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.carousel-indicators .active{
+  background-color: rgb(255,204,0);
+}
+
+@media screen and (max-width: 768px) {
+  #number2{
+    display: none;
+  }
+
+  #vls{
+    display: none;
+  }
+
+  #servicios3{
+    font-size: 14;
+  }
+
+  #servicios2{
+    font-size: 16;
+  }
+
+  .carousel-indicators{
+    bottom: -40px;
+  }
+
+  #carouselExampleIndicators{
+    width: 100%;
+  }
+
+}
+
+/*seccion 4 clientes*/
+
+#clientes{
+  position: relative;
+
+  padding: 5%;
+
+  background-size: cover;
+  display: block;
+  min-height: calc(100vh);
+  width: 100%;
+  box-sizing: border-box;
+  overflow: auto;
+}
+
+#clientes2{
+  padding-top: 5%;
+  align-items: center;
+  font-family: Young;
+  position: relative;
+  box-sizing: border-box;
+  text-align: justify;
+}
+
+#clientes2 img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 0;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px){
+  #clientes2{
+    font-size: 14;
+  }
+}
+
+/*seccion 5 contacto */
+
+#contacto{
+  position: relative;
+
+  padding: 5%;
+
+  background-color: rgb(248, 184, 197);
+
+  background-size: cover;
+  display: block;
+  min-height: calc(100vh);
+  width: 100%;
+  box-sizing: border-box;
+  display: block;
+  overflow: auto;
+}
+
+#contacto2{
+  font-family: Primetime;
+  font-size: 24;
+  font-weight: 550;
+  width: 50%;
+  padding-left: 10%;
+  box-sizing: border-box;
+}
+
+#contactoForm{
+  padding-top: 10%;
+  padding-left: 10%;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#fLabel{
+  border: none;
+  border-bottom: 2px solid black;
+  background-color: transparent;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.imagecontainer{
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 300px;
+  box-sizing: border-box;
+}
+
+.imagecontainer img{
+  position: absolute;
+  /*min-width: 100%;*/
+  min-height: auto;
+  bottom: 0%;
+  right: 0%;
+  box-sizing: border-box;
+}
+
+input{
+  border: none;
+  background-color: transparent;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#inputMail{
+  border: none;
+  background-color: transparent;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#inputMsg{
+  border: none;
+  background-color: transparent;
+  box-sizing: border-box;
+}
+
+#btnSubmit{
+  background-color: transparent;
+  font-family: inherit;
+  outline-color: black;
+  color: black;
+  border: none;
+  box-sizing: border-box;
+}
+
+#banana{
+  align-self: center;
+  vertical-align: sub;
+  box-sizing: border-box;
+}
+
+#number3 {
+  color: rgb(0,0,0);
+  font-size: 64;
+  font-weight: bolder;
+  font-family: GoodTime;
+  padding-left: 5%;
+  box-sizing: border-box;
+}
+
+#vlc{
+    position: relative;
+    border-right: 3px solid black;
+    height: 175px;
+    right: 75%;
+    margin-right: -3px;
+    margin-top: .5cm;
+    margin-bottom: .5cm;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+  #vlc{
+    display: none;
+  }
+
+  #number3{
+    display: none;
+  }
+
+  #banana{
+    display: none;
+  }
+
+  #contacto{
+  }
+
+}
+
+/*footer*/
+
+#footer{
+  position: relative;
+
+  padding: 5%;
+
+  background-size: cover;
+
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#fooTitle{
+  font-family: Primetime;
+  font-size: 18;
+  font-weight: 550;
+  box-sizing: border-box;
+}
+
+#fooBody{
+  font-family: GooTime;
+  font-size: 18;
+  box-sizing: border-box;
+  font-weight: normal;
+
+}
+
+#fooBody a{
+  color: black;
+}
+
+/*screens*/
+
+@media screen and (max-width: 768px) {
+  #fooBody {
+    font-size: 14;
+  }
+
+}
+
+
+
+/*fonts*/
+
+@font-face {
+  font-family: GoodTime;
+  src:url(fonts/GoodTime.otf);
+}
+
+@font-face {
+  font-family: PrimeTime;
+  src:url(fonts/Primetime.ttf);
+}
+
+@font-face {
+  font-family: Young;
+  src: url(fonts/Young.ttf);
+}
+
+@font-face {
+  font-family: YoungItalic;
+  src: url(fonts/YoungItalic.ttf);
+}

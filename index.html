@@ -1,0 +1,255 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>MCMonkey</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+  <div id="Hola">
+  <div class="container">
+
+    <div class="row">
+      <div class="col-4">
+        <img src="img/Logo.png" width="auto" height="50%" >
+      </div>
+      <div class="col"></div>
+      <div class="col-4">
+        <ul id="menu">
+          <li id="menutgl"><a onclick="toggleMenu()">&#9776;</a></li>
+          <li class="menuitem">01<a href="#quienes" class="smoothscroll"><span id="menutxt">QUIENES SOMOS</span></a><p></li>
+          <li class="menuitem">02<a href="#servicios" class="smoothscroll"><span id="menutxt">SERVICIOS</span></a><p></li>
+          <li class="menuitem">03<a href="#clientes" class="smoothscroll"><span id="menutxt">CLIENTES</span></a><p></li>
+          <li class="menuitem">04<a href="#contacto" class="smoothscroll"><span id="menutxt">ENVIANOS UN <br> PLATANAZO</span></a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="carouselHome" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselHome" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselHome" data-slide-to="1"></li>
+        <li data-target="#carouselHome" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active" id="item1">
+          <div class="row" id="hacemos">
+            <div class="col-md-7 col-sm-12">
+              HACEMOS CRECER TU MARCA
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item" id="item2">
+          <div class="row" id="hacemos">
+            <div class="col-md-7 col-sm-12">
+              HACEMOS CRECER TU NEGOCIO
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item" id="item3">
+          <div class="row" id="hacemos">
+            <div class="col-md-7 col-sm-12">
+              HACEMOS CRECER TU MERCADO
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div id="quienes">
+    <div class="container-fluid">
+      <div class="row" id="r1">
+      <div class="col-2" id="vl"></div>
+        <div class="col-4" id="quienes2">
+          <span style="color: rgb(102,102,102);">QUIENES</span><br> <span style="font-size: 38">SOMOS</span>
+        </div>
+      </div>
+      <div class="row" id="r2">
+        <div class="col-2" id="number">
+          <P><span style="border: solid rgb(255,204,0);">01</span>
+        </div>
+        <div class="col" id="quienes3" >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ac elit feugiat sapien faucibus volutpat. In imperdiet lobortis ultrices. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent eu iaculis nisl. Morbi pulvinar pulvinar dapibus. Aenean rhoncus scelerisque nulla sed elementum. Ut non ipsum vel odio blandit mollis ut sit amet diam. Aliquam neque nulla, sagittis non venenatis vel, tempus mattis risus. Mauris a sollicitudin tortor. Mauris et augue et turpis aliquet feugiat in ac justo. Praesent finibus elit purus, sit amet pretium nisl fermentum vel.
+        </div>
+      </div>
+      <div class="row" id="r2">
+        <div class="col-2" id="vl"></div>
+      </div>
+    </div>
+  </div>
+  <div id="servicios">
+    <div class="container-fluid">
+      <div class="row" id="r1">
+        <div class="col-4">
+          <span style="color: white;">NUESTROS</span><br>SERVICIOS
+        </div>
+      </div>
+    <div class="row">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row" id="servicios2">
+
+                  <div class="col-6 col-md-4"><img src="img/branding.png" width="auto" height="10%"><p><p>BRANDING<br>
+                  <span id="servicios3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vulputate porttitor varius.</span></div>
+                  <div class="col-6 col-md-4"><img src="img/digital.png" width="auto" height="10%"><p><p>MERCADOTECNIA<br>DIGITAL<br>
+                  <span id="servicios3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vulputate porttitor varius.</span></div>
+                  <div class="col"><img src="img/grafico.png" width="auto" height="10%"><p><p>DISEÑO GRAFICO<br>
+                  <span id="servicios3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vulputate porttitor varius.</span></div>
+
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row" id="servicios2">
+
+                  <div class="col-6 col-md-4"><img src="img/altavoz.png" width="auto" height="10%"><p><p>PUBLICIDAD<br>
+                  <span id="servicios3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vulputate porttitor varius.</span></div>
+                  <div class="col-6 col-md-4"><img src="img/produccion.png" width="auto" height="10%"><p><p>PRODUCCION<BR>AUDIOVISUAL<br>
+                  <span id="servicios3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vulputate porttitor varius.</span></div>
+                  <div class="col"><img src="img/web.png" width="auto" height="10%"><p><p>PAGINAS WEB<br>
+                  <span id="servicios3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vulputate porttitor varius.</span></div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+        <div class="col-1" id="number2">
+          <div class="row" id="vls"></div>
+          <div class="row"><span style="border: solid rgb(255,255,255);">02</span></div>
+          <div class="row" id="vls"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="clientes">
+    <div class="container-fluid">
+      <div class="row" id="r1">
+        <div class="col-2"></div>
+        <div class="col-4">
+          <span style="color: rgb(102,102,102);">Clientes</span><br> <span style="font-size: 38">Felices</span>
+        </div>
+      </div>
+      <div class="row" id="r2">
+        <div class="col-2" id="number">
+          <div class="row" id="vl2"></div>
+          <div class="row"><span style="border: solid rgb(255,204,0);">03</span></div>
+          <div class="row" id="vl2"></div>
+        </div>
+        <div class="col" id="clientes2">
+          <div class="row" id="clientesRow">
+            <div class="col-12 col-md-4"><img src="img/udech.png" width="auto" height="80px"><p><p>
+                    "Nuestra experiencia con MC Monkey ha sido muy satisfactoria en cuanto a los resultados que se han generado en la matricula de inscritos. MCMonkey son expertos en el manejo de las redes sociales como medios de comunicación actual para estar cerca de nuestros jovenes, ha sido un vinculo muy importante entre nosotros como institución educativa y los jovenes de hoy."<p><p>
+                    Lic. Ana Cecilia Sadoval Garibay<br>
+                    Director Proyectos Educativos<br>
+                    Universidad de Chihuahua<p><p>
+            </div>
+            <div class="col-12 col-md-4"><img src="img/paramedicas.png" width="auto" height="80px"><p><p>
+                    "En MCMonkey son los encargados de llevar las redes sociales de nuestra escuela y hasta este momento ha sido un resultado satisfactorio. Hay un buen seguimiento y atención en los alumnos, realmente están involucrados con su trabajo y le dan seguimiento con hasta el más mínimo detalle que tengan los prospectos para entrar. No hay más que recomendarlos ampliamente."<p><p>
+                    Humberto Molina<br>
+                    Director<br>
+                    Escuela Técnica de Ciencias Paramedicas<p><p>
+            </div>
+            <div class="col-12 col-md-4"><img src="img/trias.png" width="auto" height="80px"><p><p>
+                    "Una excelente experiencia y trato el que hemos conseguido con MCMonkey, estamos muy felices de trabajar en conjunto con ellos para llevar a cabo nuestras campañas publicitarias como también que estén al pendiente de nuestras redes sociales."<p><p>
+                    Enrique González<br>
+                    Director de Preparatoria<br>
+                    Angel Trias<p><p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row" id="r2">
+        <div class="col-2"></div>
+      </div>
+    </div>
+  </div>
+  <div id="contacto">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-6" id="contacto2">ENVIANOS UN PLATANAZO<p></div>
+      </div>
+      <div class="row"><p>
+        <div class="col-md-6 col-sm-12">
+          <form id="contactoForm" action="form-email.php" method="post" autocomplete="off">
+            <div class="form-group row" id="fLabel">
+              <label for="inputName" class="col-form-label">NOMBRE</label>
+              <div class="col-4">
+                <input type="text" id="inputName" name="name">
+              </div>
+            </div>
+            <div class="form-group row" id="fLabel">
+              <label for="inputTel" class="col-form-label">TELEFONO</label>
+              <div class="col-4">
+                <input type="tel" id="inputTel" name="phone">
+              </div>
+            </div>
+            <div class="form-group row" id="fLabel">
+              <label for="inputMail" class="col-form-label">EMAIL</label>
+              <div class="col-4">
+                <input type="email" class="form-control" id="inputMail" name="email">
+              </div>
+            </div>
+            <div class="form-group row" id="fLabel">
+              <label for="inputMsg" class="col-form-label">MENSAJE</label>
+              <textarea class="form-control" id="inputMsg" rows="5" name="message"></textarea>
+            </div>
+            <button type="submit" value="submit" class="btn btn-primary" id="btnSubmit">Enviar</button>
+          </form>
+        </div>
+        <div class="col-2 order-last" id="number3">
+          <div class="row" id="vlc"></div>
+          <div class="row"><span style="border: solid rgb(0,0,0);">04</span></div>
+          <div class="row" id="vlc"></div>
+        </div>
+        <div class="col-4" id="banana">
+          <div class="imagecontainer"><img src="img/Banana.png" width="75%" height="auto"></div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</body>
+<footer>
+  <div id="footer">
+    <div class="container-fluid">
+    <div class="row" id="fooTitle">
+      <div class="col-md-1"></div>
+      <div class="col-md-3">ENCUENTRANOS <P>
+        <div class="row" id="fooBody">
+          <div class="col">
+            <p>
+              <a href="https://www.facebook.com/MCMonkeyMX/" ><img src="img/FbIconBlack.png" width="auto" height="3%">FACEBOOK</a> <P>
+              <a href="" ><img src="img/twitter.png" width="auto" height="3%"> TWITTER</a> <P>
+              <a href="" ><img src="img/instagram.png" width="auto" height="3%"> INSTAGRAM</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">TELEFONO<p>
+        <div class="row" id="fooBody"><div class="col"><a href="tel:+52 01 614 345 1410 ">+52 01 614 345 1410</a></div></div>
+      </div>
+      <div class="col-md-3">EMAIL<p>
+        <div class="row" id="fooBody"><div class="col-md-3">CONTACTO.MCMONKEY@GMAIL.COM</div></div>
+      </div>
+    </div>
+    <div class="row" id="fooBody">
+    </div>
+    </div>
+  </div>
+</footer>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+<script src="./js/jquery-ui.js"></script>
+<script src="./js/script.js"></script>
+<script src="./js/smoothscroll.js"></script>
+</html>
